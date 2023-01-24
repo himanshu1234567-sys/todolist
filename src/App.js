@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import React, { useState } from "react";
 import "./App.css";
-import "font-awesome/css/font-awesome.min.css";
+// import "font-awesome/css/font-awesome.min.css";
 import union from "./assets/Union.png";
 import iicon from "./assets/i.png";
 import edit from "./assets/edit.png";
