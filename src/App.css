@@ -1,38 +1,153 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main_div {
+  width: 100%;
+  background: #1b1a17;
   min-height: 100vh;
+}
+.App {
+}
+.section_1 {
+  padding: 7px;
+  border: 2px solid #a35709;
+}
+.section_2{
+  margin-top: 10vh;
+  text-align: center;
+  /* display: inline-flex; */
+  /* align-content: stretch; */
+  /* align-items: center;
+  justify-content: space-between; */
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+.btn_cls{
+ 
+  background: #1F1E1B;
+  border: 1.5px solid #FF8303;
+  width: 6%;
+  max-height: 4.5rem;
+  min-width: 4rem;
+  margin-top: 4px;
+  margin-bottom: 4px;
+ border-radius: 5px;
+}
+.plusIcon{
+  color:  #a35709;
+}
+.inputFields{
+  width: 30%;
+  min-width: 18rem
+  /* width: 0%; */
+  
+}
+.inputFields input{
+  color: white;
+  border-radius: 4px;
+  background: #1F1E1B;
+  margin: 5px;
+  padding: 3px;
+  border: 1px solid #a35709;
+  padding-left: 50px;
+}
+input:focus{
+  outline: 1px solid #FF8303;
+}
+
+textarea:focus{
+  outline: 1px solid #FF8303;
+
+}
+
+.inputFields textarea{
+  color: white;
+  border-radius: 4px;
+  background: #1F1E1B;
+  margin: 5px;
+  padding: 3px;
+  border: 1px solid #a35709;
+  padding-left: 50px;
+}
+
+.s1_h2 {
+  color: #ffffff;
+  margin: unset;
+}
+.s1_p {
+  color: #f0e3ca;
+  margin: unset;
+}
+.title{
+  display: block;
+  width: 97%;
+
+}
+.input{
+  
+  display: block;
+  width: 97%;
+
+}
+.section_3{
+  margin-top: 4vw;
+  border-radius: 8px;
+  width: 90%;
+  min-height: 50vh;
+  padding: 2rem 2rem;
+  background-color: #1F1E1B;
+  border: 1px solid #a35709;
+}
+
+.containerTask {
+  width:30.2%;
+  min-width: 16rem;
+  height: 5rem;
+  border: 1px solid #a35709;
+  margin:2rem 1rem;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.smButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a35709;
+  padding: 0.7rem 0.9rem;
+  border-radius: 5px;
+}
+.notaskdiv{
+  width: 100%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.notaskdiv h4{
+  padding-top: 6px;
+  padding-bottom: 4px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.notaskdiv span{
+  width: 7%;
+  border-top: 2px solid #FF8303;
+}
+
+.titletext{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media only screen 
+and (device-width: 428px) 
+and (device-height: 926px) 
+and (-webkit-device-pixel-ratio: 3) { 
+
+  
 }
